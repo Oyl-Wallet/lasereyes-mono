@@ -1,5 +1,23 @@
 # demo.lasereyes.build
 
+## 0.0.5
+
+### Patch Changes
+
+- try changing signature
+- Updated dependencies
+  - @kevinoyl/lasereyes@0.0.165
+  - @kevinoyl/lasereyes-ui@0.0.24
+
+## 0.0.4
+
+### Patch Changes
+
+- fix dependencies?
+- Updated dependencies
+  - @kevinoyl/lasereyes@0.0.164
+  - @kevinoyl/lasereyes-ui@0.0.23
+
 ## 0.0.3
 
 ### Patch Changes

@@ -518,7 +518,7 @@ importers:
   packages/react:
     dependencies:
       '@kevinoyl/lasereyes-core':
-        specifier: 0.0.83
+        specifier: 0.0.86
         version: link:../core
       '@nanostores/react':
         specifier: ^0.7.3

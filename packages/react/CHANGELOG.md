@@ -1,5 +1,21 @@
 # @kevinoyl/lasereyes-react
 
+## 0.0.82
+
+### Patch Changes
+
+- try changing signature
+- Updated dependencies
+  - @kevinoyl/lasereyes-core@0.0.87
+
+## 0.0.81
+
+### Patch Changes
+
+- fix dependencies?
+- Updated dependencies
+  - @kevinoyl/lasereyes-core@0.0.86
+
 ## 0.0.80
 
 ### Patch Changes

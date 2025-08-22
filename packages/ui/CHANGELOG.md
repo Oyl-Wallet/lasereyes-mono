@@ -1,5 +1,21 @@
 # @kevinoyl/lasereyes-ui
 
+## 0.0.24
+
+### Patch Changes
+
+- try changing signature
+- Updated dependencies
+  - @kevinoyl/lasereyes@0.0.165
+
+## 0.0.23
+
+### Patch Changes
+
+- fix dependencies?
+- Updated dependencies
+  - @kevinoyl/lasereyes@0.0.164
+
 ## 0.0.22
 
 ### Patch Changes

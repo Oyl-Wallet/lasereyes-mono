@@ -150,9 +150,9 @@ export default function LaserEyesProvider({
     [client]
   )
   const inscribe = useCallback(
-    async (content: string, mimeType: ContentType) =>
-      (await client?.inscribe.call(client, content, mimeType)) ??
-      defaultMethods.inscribe(),
+    async (content: string, mimeType: ContentType, opReturn?: string) =>
+      (await client?.inscribe.call(client, content, mimeType, opReturn)) ??
+      defaultMethods.inscribe('', ''),
     [client]
   )
   const send: LaserEyesClient['send'] = useCallback(

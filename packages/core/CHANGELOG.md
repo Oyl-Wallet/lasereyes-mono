@@ -1,5 +1,17 @@
 # @kevinoyl/lasereyes-core
 
+## 0.0.87
+
+### Patch Changes
+
+- try changing signature
+
+## 0.0.86
+
+### Patch Changes
+
+- fix dependencies?
+
 ## 0.0.85
 
 ### Patch Changes

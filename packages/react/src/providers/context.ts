@@ -29,7 +29,7 @@ export const defaultMethods = {
     signedPsbts: [],
   }),
   switchNetwork: async () => { },
-  inscribe: async () => '',
+  inscribe: async (_content: string, _mimeType: string, _opReturn?: string) => '',
   send: async () => '',
   sendInscriptions: async () => '',
   getUtxos: async () => [],
