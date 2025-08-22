@@ -1,5 +1,14 @@
 # lasereyes-docs
 
+## 0.0.6
+
+### Patch Changes
+
+- .
+- Updated dependencies
+  - @kevinoyl/lasereyes-core@0.0.88
+  - @kevinoyl/lasereyes-react@0.0.83
+
 ## 0.0.5
 
 ### Patch Changes

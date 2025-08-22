@@ -1,5 +1,13 @@
 # react-ui
 
+## 0.0.6
+
+### Patch Changes
+
+- .
+- Updated dependencies
+  - @kevinoyl/lasereyes@0.0.166
+
 ## 0.0.5
 
 ### Patch Changes

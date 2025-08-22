@@ -1,5 +1,13 @@
 # @kevinoyl/lasereyes-ui
 
+## 0.0.25
+
+### Patch Changes
+
+- .
+- Updated dependencies
+  - @kevinoyl/lasereyes@0.0.166
+
 ## 0.0.24
 
 ### Patch Changes
