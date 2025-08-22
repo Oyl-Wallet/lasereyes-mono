@@ -2,17 +2,11 @@
   "name": "@omnisat/lasereyes-core",
   "private": false,
   "version": "0.0.82",
-  "main": "./dist/index.js",
+  "main": "./dist/index.umd.js",
   "files": [
     "dist"
   ],
   "types": "./dist/index.d.ts",
-  "exports": {
-    ".": {
-      "import": "./dist/index.js",
-      "require": "./dist/index.umd.cjs"
-    }
-  },
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
