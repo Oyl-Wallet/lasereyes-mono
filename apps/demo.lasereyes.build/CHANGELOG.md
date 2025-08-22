@@ -1,5 +1,12 @@
 # demo.lasereyes.build
 
+## 0.0.3
+
+### Patch Changes
+
+- @kevinoyl/lasereyes@0.0.163
+- @kevinoyl/lasereyes-ui@0.0.22
+
 ## 0.0.2
 
 ### Patch Changes

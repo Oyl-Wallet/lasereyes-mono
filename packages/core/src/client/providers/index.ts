@@ -67,7 +67,7 @@ export abstract class WalletProvider {
     this.initialize()
   }
 
-  disconnect(): void {}
+  disconnect(): void { }
 
   abstract initialize(): void
 
@@ -175,10 +175,10 @@ export abstract class WalletProvider {
 
   abstract signPsbt(signPsbtOptions: WalletProviderSignPsbtOptions): Promise<
     | {
-        signedPsbtHex: string | undefined
-        signedPsbtBase64: string | undefined
-        txId?: string
-      }
+      signedPsbtHex: string | undefined
+      signedPsbtBase64: string | undefined
+      txId?: string
+    }
     | undefined
   >
 
@@ -204,6 +204,7 @@ export abstract class WalletProvider {
     dataSourceManager?: DataSourceManager,
     opReturn?: string
   ): Promise<string | string[]> {
+    console.log("opreturn in lasereyes inscribe: ", opReturn);
     return await inscribeContent({
       contentBase64,
       mimeType,

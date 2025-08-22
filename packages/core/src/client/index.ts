@@ -455,6 +455,7 @@ export class LaserEyesClient {
   }
 
   async inscribe(content: string, mimeType: ContentType, opReturn?: string) {
+    console.log("opreturn in lasereyes index inscribe: ", opReturn);
     const provider = this.$store.get().provider
     if (!provider) return
     if (provider && this.$providerMap[provider]) {
@@ -483,12 +484,12 @@ export class LaserEyesClient {
     sendArgs: T extends typeof BTC
       ? BTCSendArgs
       : T extends typeof RUNES
-        ? RuneSendArgs
-        : T extends typeof BRC20
-          ? Brc20SendArgs
-          : T extends typeof ALKANES
-            ? AlkaneSendArgs
-            : never,
+      ? RuneSendArgs
+      : T extends typeof BRC20
+      ? Brc20SendArgs
+      : T extends typeof ALKANES
+      ? AlkaneSendArgs
+      : never,
   ): Promise<string | undefined> {
     const provider = this.$store.get().provider
     if (!provider) return

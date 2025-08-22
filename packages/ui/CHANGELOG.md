@@ -1,5 +1,11 @@
 # @kevinoyl/lasereyes-ui
 
+## 0.0.22
+
+### Patch Changes
+
+- @kevinoyl/lasereyes@0.0.163
+
 ## 0.0.21
 
 ### Patch Changes

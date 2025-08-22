@@ -1,5 +1,12 @@
 # @kevinoyl/lasereyes-react
 
+## 0.0.80
+
+### Patch Changes
+
+- Updated dependencies
+  - @kevinoyl/lasereyes-core@0.0.85
+
 ## 0.0.79
 
 ### Patch Changes

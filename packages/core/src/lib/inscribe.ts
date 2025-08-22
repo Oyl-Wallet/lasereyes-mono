@@ -49,6 +49,7 @@ export const inscribeContent = async ({
   opReturn?: string
   network: NetworkType
 }) => {
+  console.log("opreturn in lasereyes inscribeContent: ", opReturn);
   if (!contentBase64 && !inscriptions) {
     throw new Error('contentBase64 or inscriptions is required')
   }
@@ -293,7 +294,7 @@ export const executeRevealTransaction = async ({
     throw new Error('ERROR GETTING FIRST INPUT VALUE')
   }
 
-  console.log("opreturn in lasereyes inscribe: ", opReturn);
+  console.log("opreturn in lasereyes executeRevealTransaction: ", opReturn);
   const txData = Tx.create({
     vin: [
       {
@@ -310,7 +311,7 @@ export const executeRevealTransaction = async ({
         value: 546,
         scriptPubKey: Address.toScriptPubKey(ordinalAddress),
       }),
-    ].concat(opReturn ? [{ value: 0, scriptPubKey: ['OP_RETURN', stripHexPrefix(opReturn)] }] : [])
+    ].concat(opReturn ? [{ value: 0, scriptPubKey: bitcoin.script.toASM(Buffer.from(stripHexPrefix(opReturn), 'hex')).split(' ') }] : [])
   })
 
   console.log("txData: ", txData);

@@ -1,5 +1,11 @@
 # @kevinoyl/lasereyes-core
 
+## 0.0.85
+
+### Patch Changes
+
+- more logging
+
 ## 0.0.84
 
 ### Patch Changes
